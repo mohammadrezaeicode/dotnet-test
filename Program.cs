@@ -45,7 +45,7 @@ public class ExcelTest
         // {
         //     Console.WriteLine("There was a problem opening the Excel file.");
         // }
-        string excelFilePath = @"x.xlsx"; // Replace with your Excel file path
+        string excelFilePath = @"a.xlsx"; // Replace with your Excel file path
         Console.WriteLine("start.");
         Console.WriteLine("start2.");
         Console.WriteLine("Object3");
@@ -75,7 +75,5 @@ public class ExcelTest
             // Handle the exception, e.g., log it
             Console.WriteLine("Error opening Excel file: " + ex.Message);
         }
-         Console.WriteLine("Press any key to exit...");  
-    Console.ReadKey();  
     }
 }
